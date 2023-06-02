@@ -1002,7 +1002,7 @@ local Window = UI:CreateWindow({
 
     Center = true,
 
-    Size = UDim2.fromOffset(200, 400),
+    Size = UDim2.fromOffset(200, 1),
 
 })
 
