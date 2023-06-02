@@ -1078,7 +1078,7 @@ Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
 
 Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
 
-    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'z', NoUI = true, SyncToggleState = true })
+    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'Q', NoUI = true, SyncToggleState = true })
 
     Groups.Autoplayer:AddDropdown('PressMode', {
 
@@ -1086,7 +1086,7 @@ Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
 
         Compact = true, 
 
-        Default = 'firesignal', 
+        Default = 'virtual input', 
 
         Values = { 'firesignal', 'virtual input' }, 
 
