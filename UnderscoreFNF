@@ -1056,21 +1056,21 @@ Groups.HitTiming = Tabs.Main:AddRightTabbox('Hit timing')
 
     Groups.ManualTiming = Groups.HitTiming:AddTab('Manual delay')
 
-        Groups.ManualTiming:AddSlider('ReleaseDelay',   { Text = 'Release delay (ms)',  Min = 0,   Max = 500, Default = 20, Rounding = 0 })
+        Groups.ManualTiming:AddSlider('ReleaseDelay',   { Text = 'Release delay (ms)',  Min = 0,   Max = 500, Default = 10, Rounding = 0 })
 
-        Groups.ManualTiming:AddSlider('HeldDelay',      { Text = 'Held delay (ms)',     Min = -20, Max = 100, Default = 0,  Rounding = 0 })
+        Groups.ManualTiming:AddSlider('HeldDelay',      { Text = 'Held delay (ms)',     Min = -20, Max = 100, Default = 10,  Rounding = 0 })
 
     
 
     Groups.RandomTiming = Groups.HitTiming:AddTab('Random delay')
 
-        Groups.RandomTiming:AddSlider('NoteDelayMin',   { Text = 'Minimum note delay (ms)', Min = 0, Max = 500, Default = 0,    Rounding = 0 })
+        Groups.RandomTiming:AddSlider('NoteDelayMin',   { Text = 'Minimum note delay (ms)', Min = 0, Max = 500, Default = 10,    Rounding = 0 })
 
-        Groups.RandomTiming:AddSlider('NoteDelayMax',   { Text = 'Maximum note delay (ms)', Min = 0, Max = 100, Default = 20,   Rounding = 0 })
+        Groups.RandomTiming:AddSlider('NoteDelayMax',   { Text = 'Maximum note delay (ms)', Min = 0, Max = 100, Default = 10,   Rounding = 0 })
 
-        Groups.RandomTiming:AddSlider('HeldDelayMin',   { Text = 'Minimum held note delay (ms)', Min = 0, Max = 500, Default = 0,   Rounding = 0 })
+        Groups.RandomTiming:AddSlider('HeldDelayMin',   { Text = 'Minimum held note delay (ms)', Min = 0, Max = 500, Default = 10,   Rounding = 0 })
 
-        Groups.RandomTiming:AddSlider('HeldDelayMax',   { Text = 'Maximum held note delay (ms)', Min = 0, Max = 100, Default = 20,  Rounding = 0 })
+        Groups.RandomTiming:AddSlider('HeldDelayMax',   { Text = 'Maximum held note delay (ms)', Min = 0, Max = 100, Default = 10,  Rounding = 0 })
 
 Groups.Keybinds = Tabs.Main:AddRightGroupbox('Keybinds')
 
