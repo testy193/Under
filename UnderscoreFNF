@@ -1016,13 +1016,13 @@ Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
 
 Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
 
-    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'End', NoUI = true, SyncToggleState = true })
+    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'LeftShift', NoUI = true, SyncToggleState = true })
 
     Groups.Autoplayer:AddDropdown('PressMode', { Text = 'Key press mode', Default = 'Fire signal', Values = { 'Fire signal', 'Key press' }, Tooltip = 'Set this to "Key press" if the other mode does not work' })
 
     Groups.Autoplayer:AddDivider()
 
-    Groups.Autoplayer:AddDropdown('AutoplayerMode', { Text = 'Autoplayer mode', Default = 1, Values = { 'Chances', 'Manual' } })
+    Groups.Autoplayer:AddDropdown('AutoplayerMode', { Text = 'Autoplayer mode', Default = 2, Values = { 'Chances', 'Manual' } })
 
     Groups.Autoplayer:AddDropdown('DelayMode', { Text = 'Delay mode', Default = 1, Values = { 'Manual', 'Random' } })
 
