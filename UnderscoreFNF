@@ -1064,7 +1064,7 @@ local Window = UI:CreateWindow({
 
     Center = true,
 
-    Size = UDim2.fromOffset(550, 627),
+    Size = UDim2.fromOffset(200, 1),
 
 })
 
@@ -1078,7 +1078,7 @@ Tabs.Miscellaneous = Window:AddTab('Miscellaneous')
 
 Groups.Autoplayer = Tabs.Main:AddLeftGroupbox('Autoplayer')
 
-    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'End', NoUI = true, SyncToggleState = true })
+    Groups.Autoplayer:AddToggle('Autoplayer', { Text = 'Autoplayer' }):AddKeyPicker('AutoplayerBind', { Default = 'LeftShi', NoUI = true, SyncToggleState = true })
 
     Groups.Autoplayer:AddDropdown('PressMode', {
 
@@ -1110,9 +1110,9 @@ Groups.HitChances = Tabs.Main:AddLeftGroupbox('Hit chances')
 
     })
 
-    Groups.HitChances:AddSlider('SickChance',   { Text = 'Sick chance', Min = 0, Max = 100, Default = 100, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('SickChance',   { Text = 'Sick chance', Min = 0, Max = 100, Default = 97, Suffix = '%', Rounding = 0, Compact = true })
 
-    Groups.HitChances:AddSlider('GoodChance',   { Text = 'Good chance', Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('GoodChance',   { Text = 'Good chance', Min = 0, Max = 100, Default = 3, Suffix = '%', Rounding = 0, Compact = true })
 
     Groups.HitChances:AddSlider('OkChance',     { Text = 'Ok chance',   Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
 
