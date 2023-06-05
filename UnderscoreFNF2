@@ -1110,9 +1110,9 @@ Groups.HitChances = Tabs.Main:AddLeftGroupbox('Hit chances')
 
     })
 
-    Groups.HitChances:AddSlider('SickChance',   { Text = 'Sick chance', Min = 0, Max = 100, Default = 98, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('SickChance',   { Text = 'Sick chance', Min = 0, Max = 100, Default = 97, Suffix = '%', Rounding = 0, Compact = true })
 
-    Groups.HitChances:AddSlider('GoodChance',   { Text = 'Good chance', Min = 0, Max = 100, Default = 2, Suffix = '%', Rounding = 0, Compact = true })
+    Groups.HitChances:AddSlider('GoodChance',   { Text = 'Good chance', Min = 0, Max = 100, Default = 3, Suffix = '%', Rounding = 0, Compact = true })
 
     Groups.HitChances:AddSlider('OkChance',     { Text = 'Ok chance',   Min = 0, Max = 100, Default = 0, Suffix = '%', Rounding = 0, Compact = true })
 
